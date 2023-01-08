@@ -3,7 +3,7 @@ from sys import argv
 
 num_args = len(argv)
 if num_args == 1:
-    print("0 arguments.")
+    print("0 arguments.", end="\n")
 if num_args == 2:
     print("1 argument:", end="\n")
     print("1: {:s}".format(argv[1]), end="\n")
