@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 def uppercase(str):
-    new_str = []
+    str_lst = []
     for letter in str:
-        new_str.append(letter.capitalize())
-    print("".join(new_str), end="\n")
+        str_lst.append(letter.capitalize())
+    new_str = "".join(str_lst)
+    print("{:s}".format(new_str))
