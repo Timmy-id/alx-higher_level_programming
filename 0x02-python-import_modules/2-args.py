@@ -8,6 +8,6 @@ if num_args == 2:
     print("1 argument:", end="\n")
     print("1: {:s}".format(argv[1]), end="\n")
 if num_args > 2:
-    print("{:d} arguments:".format(num_args - 1))
+    print("{:d} arguments:".format(num_args - 1), end="\n")
     for i in range(1, num_args):
-        print("{:d}: {:s}".format(i, argv[i]))
+        print("{:d}: {:s}".format(i, argv[i]), end="\n")
