@@ -14,4 +14,5 @@ if num_args > 2:
 
 
 if __name__ == "__main__":
-    argv
+    argv,
+    num_args
