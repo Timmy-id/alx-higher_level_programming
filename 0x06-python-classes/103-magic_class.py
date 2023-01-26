@@ -24,4 +24,4 @@ class MagicClass():
 
     def circumference(self):
         """Calculate the perimeter of the circle"""
-        return self.__radius * 2 * math.pi
+        return 2 * math.pi * self.__radius
