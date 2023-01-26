@@ -7,6 +7,3 @@ def safe_print_integer(value):
     except TypeError:
         print("{} is not an integer".format(value))
         return False
-
-
-print(safe_print_integer("School"))
