@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-from math import pi
-
 """Class magic_class definition"""
+
+from math import pi
 
 
 class MagicClass():
