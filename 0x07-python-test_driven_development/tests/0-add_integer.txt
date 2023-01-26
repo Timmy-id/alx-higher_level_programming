@@ -1,0 +1,36 @@
+A function that returns the addtion of two integer arguments.
+=============================================================
+
+Given two integers, return the sum
+:param a: int
+:param b: int
+:return: int
+
+Import the add_integer function
+    >>> add_integer = __import__("0-add_integer").add_integer
+
+Add @a:int @b:int
+    >>> add_integer(3, 5)
+    8
+
+Add @a:int @b:float
+    >>> add_integer(2, 3.1)
+    5
+
+Add @a:str @b:int
+    >>> add_integer("five", 7)
+    Traceback (most recent call last):
+    TypeError: a must be an integer
+
+Add @a:int @b:str
+    >>> add_integer(8, "seven")
+    Traceback (most recent call last):
+    TypeError: b must be an integer
+
+Add @a:int
+    >>> add_integer(9)
+    107
+
+Add @a:float @b:float
+    >>> add_integer(4.1, 5.2)
+    9
