@@ -4,7 +4,7 @@
 import math
 
 
-class MagicClass():
+class MagicClass:
     """Class sMagicClass with a private instance variable
         The radius variable must be a number
     """
