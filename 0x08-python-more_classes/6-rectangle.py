@@ -31,7 +31,8 @@ class Rectangle:
     def __del__(self):
         """Delete an instance of the Rectangle"""
         print("Bye rectangle...")
-        # When a Rectangle instance is deleted, the number_of_instances decreases by 1
+        # When a Rectangle instance is deleted, the
+        # number_of_instances decreases by 1
         Rectangle.number_of_instances -= 1
 
     @property
@@ -44,7 +45,7 @@ class Rectangle:
             raise TypeError("width must be an integer")
         if value < 0:
             raise ValueError("width must be >= 0")
-        self.__width = value    
+        self.__width = value
 
     @property
     def height(self):
