@@ -17,6 +17,10 @@ Add @a:int @b:float
     >>> add_integer(2, 3.1)
     5
 
+Add @a:float @b:int
+    >>> add_integer(2.4, 1)
+    3
+
 Add @a:str @b:int
     >>> add_integer("five", 7)
     Traceback (most recent call last):
@@ -26,6 +30,11 @@ Add @a:int @b:str
     >>> add_integer(8, "seven")
     Traceback (most recent call last):
     TypeError: b must be an integer
+
+Add @a:str @b:str
+    >>> add_integer("2", "7")
+    Traceback (most recent call last):
+    TypeError: a must be an integer
 
 Add @a:int
     >>> add_integer(9)
